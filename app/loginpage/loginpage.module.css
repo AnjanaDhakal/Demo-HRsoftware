@@ -1,0 +1,11 @@
+.box {
+    background-image: linear-gradient(to right, black 20%, white 0%);
+}
+@media (max-width: 768px) {
+    .box {
+        background-image: linear-gradient(to right, white 100%, white 0%);
+    }
+}
+.titleName {
+    color: green;
+}

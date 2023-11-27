@@ -1,0 +1,11 @@
+.active:after {
+    content: "-";
+  }
+
+  #accordion div {
+    display: none;
+}
+
+#accordion div.open {
+    display: block;
+}
